@@ -1,6 +1,16 @@
-import './App.css'
-
 function App() {
+
+  /*
+  Sections:
+  - Header
+  - About
+    - Name
+    - Dynamic info on my year
+  - Projects
+    - Skills
+    - Org (e.g. personal, class, work, hackathons)
+  - Contact
+  */
 
   return (
     <>
