@@ -1,25 +1,26 @@
+import About from "./components/About"
+
+/*
+Sections:
+- Header
+- About
+  - Name
+  - Dynamic info on my year
+- Projects
+  - Description
+  - Have labels (e.g. firmware, software, electrical, mechanical) to filter projects + bold the parts of the description related to the label
+- Footer
+  - Contact info
+  - Something fun :p
+*/
+
 function App() {
-
-  /*
-  Sections:
-  - Header
-  - About
-    - Name
-    - Dynamic info on my year
-  - Projects
-    - Skills
-    - Org (e.g. personal, class, work, hackathons)
-  - Contact
-  */
-
   return (
     <>
-      <h1>Lavan Sumanan</h1>
-      <div className="card">
-        <p>
-          Site currently under construction. Please check back later for more.
-        </p>
-      </div>
+      {/* <Header /> */}
+      <About />
+      {/* <Projects /> */}
+      {/* <Footer /> */}
     </>
   )
 }
